@@ -1,4 +1,6 @@
-﻿IMPLEMENTATION:
+MI_Assignment3_final main file
+
+IMPLEMENTATION:
 
 
 * Data Pre-processing: The given dataset consisted of the columns Community, Age, Weight, Delivery Phase, HB, IFA, BP, Education, Residence and Result. To handle the null values in features of Age ,Weight ,HB and BP, we filled it with their means; the features Delivery phase and Residence were filled with their mode (i.e, 1) since these columns take binary values, and the Education feature was filled with 5 because all the values were 5 in the given dataset. We decided to drop the Community column because it didn’t seem to yield any meaningful insight in our analysis.        
